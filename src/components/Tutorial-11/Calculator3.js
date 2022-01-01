@@ -1,5 +1,9 @@
 import React, { Component } from "react";
-import { convert, toCelsius, toFehrenheit } from "../lib/converter3";
+import {
+  convert,
+  toCelsius,
+  toFehrenheit,
+} from "../../lib/Tutorial-11/converter3";
 import TemperatureInput3 from "./TemperatureInput3";
 import VoilVerdit3 from "./VoilVerdit3";
 

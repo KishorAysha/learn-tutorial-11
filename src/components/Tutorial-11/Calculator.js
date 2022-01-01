@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { convert, toCelsius, toFehrenheit } from "../lib/converter";
+import { convert, toCelsius, toFehrenheit } from "../../lib/converter";
 import TemperatureInput from "./TemperatureInput";
 import VoilVerdit from "./VoilVerdit";
 export default class Calculator extends Component {
