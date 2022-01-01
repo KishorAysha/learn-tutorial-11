@@ -33,7 +33,7 @@ export default class Calculator3 extends Component {
           temperature={Fehrenheit}
           onTemperatureChange={this.handleChange}
         />
-        <VoilVerdit3 temperature={temperature} />
+        <VoilVerdit3 temperature={scale === "f" ? Celsius : Fehrenheit} />
       </>
     );
   }
