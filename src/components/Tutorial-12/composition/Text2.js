@@ -1,12 +1,12 @@
 import React from "react";
 
-export default function Text2({ addEmoji, addBreaket }) {
-  let text = "I am another JavaScript Language";
-  if (addEmoji) {
-    text = addEmoji(text, "😀");
+export default function Text2({ addEmoji2, addBreaket2 }) {
+  let text2 = "I am another JavaScript Language";
+  if (addEmoji2) {
+    text2 = addEmoji(text2, "😀");
   }
-  if (addBreaket) {
-    text = addBreaket(text);
+  if (addBreaket2) {
+    text2 = addBreaket(text2);
   }
-  return <div>{text}</div>;
+  return <div>{text2}</div>;
 }
