@@ -1,5 +1,5 @@
 import React from "react";
-import ClickCounter2 from "./components/Tutorial-14/render-props/ClickCounter2";
+// import ClickCounter2 from "./components/Tutorial-14/render-props/ClickCounter2";
 // import ClickCounter from "./components/Tutorial-14/render-props/ClickCounter";
 // import Breaket from "./components/Tutorial-12/composition/Breaket";
 // import Breaket2 from "./components/Tutorial-12/composition/Breaket2";
@@ -32,8 +32,9 @@ import ClickCounter2 from "./components/Tutorial-14/render-props/ClickCounter2";
 // import User from "./components/Tutorial-14/User";
 // import Counter from "./components/Tutorial-14/render-props/Counter";
 // import HoverCounter from "./components/Tutorial-14/render-props/HoverCounter";
-import Counter2 from "./components/Tutorial-14/render-props/Counter2";
-import HoverCounter2 from "./components/Tutorial-14/render-props/HoverCounter2";
+// import Counter2 from "./components/Tutorial-14/render-props/Counter2";
+// import HoverCounter2 from "./components/Tutorial-14/render-props/HoverCounter2";
+
 export default function App() {
   return (
     <>
@@ -114,16 +115,18 @@ export default function App() {
       {/* // )} */}
       {/* </Counter> */}
       {/* Practices: */}
-      <Counter2>
-        {(count, handleCount) => (
-          <ClickCounter2 count={count} handleCount={handleCount} />
-        )}
-      </Counter2>
-      <Counter2>
-        {(count, handleCount) => (
-          <HoverCounter2 count={count} handleCount={handleCount} />
-        )}
-      </Counter2>
+      {/* <Counter2> */}
+      {/* {(count, handleCount) => ( */}
+      {/* // <ClickCounter2 count={count} handleCount={handleCount} /> */}
+      {/* // )} */}
+      {/* </Counter2> */}
+      {/* <Counter2> */}
+      {/* {(count, handleCount) => ( */}
+      {/* // <HoverCounter2 count={count} handleCount={handleCount} /> */}
+      {/* // )} */}
+      {/* </Counter2> */}
+
+      {/* Tutorial-15  */}
     </>
   );
 }
