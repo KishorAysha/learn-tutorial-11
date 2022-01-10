@@ -34,8 +34,17 @@ import React from "react";
 // import HoverCounter from "./components/Tutorial-14/render-props/HoverCounter";
 // import Counter2 from "./components/Tutorial-14/render-props/Counter2";
 // import HoverCounter2 from "./components/Tutorial-14/render-props/HoverCounter2";
+// Tutorial 15, 16, 17 : app component is inside there
+// Tutorial-18&19:
+// import Todo from "./components/Tutorial-18&19/Todo";
+// import Todo2 from "./components/Tutorial-18&19/Todo2";
+// import Counter from "./components/Tutorial-18&19/Counter";
+//Tutorial-20
+// import MyComponentClass from "./components/Tutorial-20/MyComponentClass";
+// import MyComponentFunctional from "./components/Tutorial-20/MyComponentFunctional";
 
 export default function App() {
+  // const [show, setShow] = useState(true);
   return (
     <>
       {/* Tutorial-11 */}
@@ -126,7 +135,24 @@ export default function App() {
       {/* // )} */}
       {/* </Counter2> */}
 
-      {/* Tutorial-15  */}
+      {/* Tutorial 15, 16, 17 : app component is inside there */}
+
+      {/* Tutorial-18,19 */}
+      {/* <Todo /> */}
+      {/* <Todo2 /> */}
+      {/* <Counter /> */}
+
+      {/* Tutorial-20 */}
+      {/* <MyComponentClass /> */}
+
+      {/* {show && <MyComponentFunctional />} */}
+      {/* <button */}
+      {/* type="button" */}
+      {/* // onClick={() => setShow((prevState) => (prevState ? !prevState : true))} */}
+      {/* onClick={() => setShow((prevState) => !prevState)} */}
+      {/* > */}
+      {/* {show ? "Hide post" : "Show post"} */}
+      {/* </button> */}
     </>
   );
 }
