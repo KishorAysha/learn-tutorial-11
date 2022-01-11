@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  color: white;
+  border: 1px solid brown;
+  background-color: purple;
+  margin: 10px 5px;
+  text-align: center;
+}
+
+p {
+  margin: 10px 5px;
+  color: white;
+  border: 2px solid red;
+  background-color: purple;
+  text-align: center;
+}
+
+.h2 {
+  text-align: center;
+}
+.h3 {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  background-color: rosybrown;
+  margin-top: 20px;
+}
+
+.bg {
+  background-color: darkcyan;
+  border: 3px solid red;
+}
